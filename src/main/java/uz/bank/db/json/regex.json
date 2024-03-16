@@ -1,0 +1,7 @@
+[
+  {
+    "email": "^(\\p{Alpha}+)(\\w)(@)(\\S+)(.)(\\p{Alpha}+)$",
+    "password": "^(?=.*?\\p{Upper})(?=.*?\\p{Lower})(?=.*?\\d).{8,}",
+    "idCardNum": "^(\\p{Upper}{2}(\\d{7}))$"
+  }
+]
